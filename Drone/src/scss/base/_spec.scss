@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a, a:visited, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button, button:hover, button:focus {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
